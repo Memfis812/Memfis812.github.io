@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+canvas { 
+  display: block; 
+}
+
+.modal-table {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  user-select: none;
+}
+
+.modal-table-active {
+  display: table;
+}
+
+.modal-cell {
+  display: table-cell;
+  padding: 0 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.modal {
+  display: inline-block;
+  padding: 20px;
+  max-width: 50em;
+  color: #ffff;
+  background-color: green;
+}
